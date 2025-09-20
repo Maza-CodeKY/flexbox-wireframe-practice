@@ -1,0 +1,39 @@
+@import url("./reset.css");
+
+body {
+  background-color: lightgray;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header, article, aside, footer {
+  color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+header {
+  background-color: purple;
+}
+
+.articles {
+  background-color: green;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+article {
+  background-color: red;
+  margin: 10px 0;
+}
+
+aside {
+  background-color: blue;
+}
+
+footer {
+  background-color: orange;
+}
