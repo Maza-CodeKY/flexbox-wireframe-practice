@@ -27,6 +27,12 @@ header {
   font-weight: bold;
 }
 
+.main-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .articles {
   display: flex;
   flex-direction: column;
@@ -61,4 +67,24 @@ footer {
   padding: 20px;
   border-radius: 10px;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .main-section {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  aside {
+    flex: 1;
+    max-width: 200px;
+  }
+
+  .articles {
+    flex: 3;
+  }
 }
